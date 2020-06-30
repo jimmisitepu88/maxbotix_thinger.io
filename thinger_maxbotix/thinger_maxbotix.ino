@@ -32,7 +32,7 @@ ThingerTinyGSM thing(USERNAME, DEVICE_ID, DEVICE_CREDENTIAL, Serial2);
 Adafruit_ADS1115 ads; 
 
 #define uS_TO_S_FACTOR 1000000ULL  /* Conversion factor for micro seconds to seconds */
-#define TIME_TO_SLEEP  30
+#define TIME_TO_SLEEP  60 // sleep for 60 seconds
 unsigned long cur_time, old_time;
 
 #ifdef DUMP_AT_COMMANDS
