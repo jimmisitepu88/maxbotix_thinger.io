@@ -13,9 +13,9 @@
 #include <TinyGsmClient.h>
 #include <ThingerTinyGSM.h>
 
-#define USERNAME "jimmisitepu"
+#define USERNAME "user_name"
 #define DEVICE_ID "01"
-#define DEVICE_CREDENTIAL "kwQ!sK1OY!sY"
+#define DEVICE_CREDENTIAL "device_credential"
 
 // use your own APN config
 #define APN_NAME "Internet"
